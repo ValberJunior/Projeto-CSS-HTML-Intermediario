@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Alfa Assessoria</title>
+    <link href="../Image/icone.png" rel="icon" type="icon/png">
+    <style rel="stylesheet" type="text/css">
+    *{                                                    /*Resetando as margens e padding*/
+    margin:0;
+    padding:0;
+}
+body{                                                     /*Padrões para o corpo da página*/
+    background-image:url("../Image/background.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+
+    font-family:Arial, Helvetica, sans-serif;
+}                                                         /*Cabeçalho padrão para as páginas*/
+header{
+    max-width: 100%;
+    height:70px;
+    background-color:white;
+    margin:auto;
+    padding:20px;
+    padding-bottom:30px;
+}
+.logo{
+    float:left;
+    padding-left:90px;
+    width:95px;
+}
+.menu{
+    list-style-type: none;
+    list-style-position: inside;
+    font-weight: bolder;
+    
+    padding:15px;
+    padding-right:60px;
+}
+.option{
+    float:right;
+    padding-right:30px;
+    margin:10px;
+
+ }                                                                          /*Imagem com o Banner*/
+ .banner{
+     max-width: 100%;
+     height: 500px;
+
+     background-image: url("../Image/banner2.png");
+     background-size:cover;
+ }
+
+
+ section{                                                                     /*Aqui ficará o CSS do Forms*/
+     max-width:50%;
+     height:680px;
+     margin:auto;
+
+     background-color:#FFFFFF00;
+ }
+ .formcontainer{
+    
+    max-width:100%;
+    margin:auto;
+
+    margin-top:20%;
+     font-size:16px;
+ }
+
+
+p{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+input, select, textarea{
+            width:100%;
+            box-sizing: border-box;
+            padding: 10px;
+            border:none;
+            margin-bottom:10px;
+
+            border: 2px solid gray;
+            border-radius:5px;
+         }
+textarea{
+    height:200px;
+}     
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image:url("../Image/arrow.jpg");
+    background-repeat:no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+.buttom{                                                          /*<<<<<<<  Botão enviar*/
+    max-width:100px;
+    overflow:hidden;
+    box-sizing: border-box;
+    padding:20px;
+    color:white;
+    
+
+    background:#000066;
+
+    border: 2px solid #cdcdcd;
+    border-radius: 20px;
+
+    font-size:13px;
+    letter-spacing: 0.3px;
+    text-align:center;
+}
+
+
+
+
+
+ .setor3
+{
+    max-width: 100%;
+    height: 100px;
+    background-color:#ffffff00;
+    padding:20px;
+    
+    position:relative;
+}
+
+.social{
+    width: 100%;
+    text-align:center;
+    
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.redesocial{
+    display:inline-block;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+
+footer{
+    max-width:100%;
+    height:200px;
+
+    background-color:#000066;
+
+    border: 2px solid #00BFFF;
+}
+h3{
+    color:#FFFFFFBB;
+    text-align:center;
+    Padding-top:100px;
+    font-size:15px;
+}
+
+a{
+    text-decoration:none;
+    color:#171757;
+}
+a :hover{
+    background-color:white;
+    color:#00BFFF;
+}
+a :visited{
+    color:gray;
+}  
+
+
+/*Abaixo ficarão os medias queries -------------------------------------------------------------------------*/
+
+@media screen and (max-width:1000px){
+    .section{                                                 /*<----------------- Banner*/
+        max-width:70%;
+}
+
+}
+
+
+@media screen and (max-width:900px){
+    .banner{                                                 /*<----------------- Banner*/
+        height:300px;
+}
+}
+
+
+
+
+
+@media screen and (max-width:700px){
+
+    .logo{                                                /*<----- logo da alfa*/
+        float:left;
+        padding-left:11%;
+        width:95px;
+    }
+
+    .option{                                                 /*<----- Menus do cabeçalho*/
+        float:right;
+        padding-right:7%;
+        margin:10px;
+     }
+
+     .banner{                                                 /*<----------------- Banner*/
+        height:280px;
+    }
+
+    section {                                          /*Aqui começa o CSS do contéudo da página*/
+            
+            max-width: 70%;}
+
+}
+
+
+@media screen and (max-width:600px){
+
+   .banner{
+       height: 250px;
+   }
+
+   section {                                          /*Aqui começa o CSS do contéudo da página*/
+            
+            max-width: 77%;}
+
+}
+
+
+
+@media screen and (max-width:500px){
+
+
+    /*Cabeçalho*/
+header{
+    max-width: 100%;
+    height:180px;
+    background-color:#171757;
+    margin:auto;
+    text-align: center;
+
+    padding:0px;
+    padding-bottom:40px;
+    padding-top:50px;
+
+    
+
+    
+}
+.logo{                                                /*<----- logo da alfa*/
+    float:none;
+    padding-left:0px;
+    padding-bottom:10px;
+  
+}
+
+.option{                                                 /*<----- Menus do cabeçalho*/
+    float:none;
+    padding-right:0%;
+    margin:0px;
+    color:#cdcdcd;
+
+    font-size: 14px;
+
+    padding-top:20px;
+
+   
+   
+ }
+
+ .menu{
+    padding:0px;
+    padding-right:0px;
+
+    padding-bottom:20px;
+    padding-top:5px;
+
+}
+
+
+.banner{
+    height: 210px;
+}
+
+section {                                          /*Aqui começa o CSS do contéudo da página*/
+            
+            max-width: 77%;}
+
+
+
+
+}
+
+
+@media screen and (max-width:400px){
+
+    .banner{
+        height: 220px;
+    }
+
+    section {                                          /*Aqui começa o CSS do contéudo da página*/
+            
+            max-width: 77%;}
+
+}
+
+
+
+@media screen and (max-width:350px){
+
+    .banner{
+        height:200px;
+    }
+    section {                                          /*Aqui começa o CSS do contéudo da página*/
+            
+            max-width: 80%;}
+
+}
+
+@media screen and (max-width:290px){
+
+    .banner{
+        max-width: 100%;
+        height:250px;
+        background-image:url("../Image/minibanner2.png");
+        background-size:cover;
+    }
+
+    section {                                          /*Aqui começa o CSS do contéudo da página*/
+            
+            max-width: 85%;}
+}
+/*Fim do media queries-----------------------------------------------------------------------------------*/
+
+   </style>
+</head>
+
+<body>
+    <header>
+        <img src="../Image/Alfa com letras.png" alt="logo alfa" type="image/png" class="logo">
+
+        <ul class="menu">
+            <a href="../About/about.html"> <li class="option">Quem Somos</li></a>
+            <a href="../index.html"><li class="option">Home</li></a>
+        </ul>
+    </header>
+
+    <div class="banner"> </div>
+
+   <section>
+   
+    <div class="formcontainer">
+
+<!--Aqui ficará o form-->
+  <form method="POST" action=" ">
+      <p>Escreva seu nome:</p>
+      <input type="text" name="NAME">
+      <p>Escreva seu E-mail:</p>
+      <input type="email" name="EMAIL">
+      <p>Selecione o curso:</p>
+      <select name="COURSE">
+          <option value="DT" selected>Selecione o curso</option>
+          <option value="AQ">Arquitetura</option>
+          <option value="DT">Direito</option>
+          <option value="EG">Engenharia Civil</option>
+          <option value="FS">Fisioterapia</option>
+          <option value="MD">Medicina</option>
+          <option value="MV">Medicina Veterinária</option>
+          <option value="OD">Odontologia</option>
+          <option value="OT">Outro</option>
+      </select>
+      <p>Assunto:</p>
+      <input type="text" name="TITLE">
+      <p>Escreva sua mensagem:</p>
+      <textarea name="MESSAGE"> </textarea>
+      <br>
+      <a href="nenhumafuncao"><input type=submit value="ENVIAR" class="buttom"></a>
+  </form>
+
+    </div>
+
+    </section>
+
+    <section class="setor3">
+        <div class="social">
+            <ul>
+
+                <li class="redesocial"><a href="https://www.facebook.com/Alfaassessoriaestudantil"><img
+                            src="../Image/face.png" alt="facebook" type="image/png"> </a></li>
+
+
+                <li class="redesocial"><a href="https://www.instagram.com/alfaestudantil/"><img src="../Image/insta.png"
+                            alt="Instgram" type="image/png"></a></li>
+
+
+                <li class="redesocial"><a href="mailto:alfaassessoriaestudantil@gmail.com"><img src="../Image/gmail.png"
+                            alt="email" type="image/png"></a></li>
+
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+     <h3>Alfa Assessoria Estudantil</h3>
+    </footer>
+  
+</body>
+</html>
