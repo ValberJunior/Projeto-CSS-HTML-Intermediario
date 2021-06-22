@@ -22,17 +22,26 @@ Tecnologias aplicadas:
  Eu criei as redes sociais para a empresa e desenvolvi o logo e os banners.
  Para a criação dos banners e demais ilustrações, itulizei imagens do site "freepik" e ícones do site "pngwing".
  
-https://user-images.githubusercontent.com/84424883/122831632-8b722700-d2c0-11eb-8951-112cccc1a8c2.mp4
+ 
+
+https://user-images.githubusercontent.com/84424883/122845231-971e1780-d2d9-11eb-97c8-515941b3ccde.mp4
+
+
+
 
 - Adicionei o botão fixo do What's app utilizando apenas um atributo do css, "position:fixed" e condicionei o ícone a uma div com "border-radius:50%".
   Coloquei um link que aciona diretamente o what's app da Assessoria.
 
-https://user-images.githubusercontent.com/84424883/122832086-371b7700-d2c1-11eb-8270-d2aca8a6ab51.mp4
+
+
+https://user-images.githubusercontent.com/84424883/122845467-35aa7880-d2da-11eb-9fba-5c3fe7b4449d.mp4
+
+
 
 - Para o site fiz, além da página inicial, mais duas páginas:
  "Quem Somos" e "Contato".
  
-https://user-images.githubusercontent.com/84424883/122832194-6631e880-d2c1-11eb-9d65-609d561fd0b1.mp4
+https://user-images.githubusercontent.com/84424883/122845260-a9985100-d2d9-11eb-934b-364bc275677e.mp4
 
 
 OBS: Adicionei apenas 1 evento de Javascript nas divs dos planos de adesão.
